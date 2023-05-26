@@ -47,7 +47,7 @@ h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
-p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+p{ margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
@@ -77,9 +77,15 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif;}
+.banner {position: relative; font-family:'Roboto Slab',serif;width: 80%;  /* Adjust this to your liking */
+    margin: 0 auto;  /* This centers the content and banner on the page */}
 .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
 
 /* Conference Title Logo */
 .title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
